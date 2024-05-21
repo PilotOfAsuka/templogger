@@ -3,7 +3,6 @@ import subprocess
 
 # Данный файл-модуль является костылем для получения данных с датчика Xiaomi Mijia (LYWSD03MMC)
 # char-write-req 0x0038 0100 для включения нотификации
-# В будущем переход на более надежный DHT22
 
 def restart_bluetooth_service():
     try:
